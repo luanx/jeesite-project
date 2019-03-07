@@ -1,0 +1,7 @@
+jdbc:
+  tablePrefix: js_
+mybatis:
+  scanBasePackage: com.jeesite.modules
+
+session:
+  sessionIdCookieName: jeesite.session.id

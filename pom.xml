@@ -5,11 +5,18 @@
     <modelVersion>4.0.0</modelVersion>
     
     <groupId>com.wantdo</groupId>
-    <artifactId>root</artifactId>
+    <artifactId>jeesite-project</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <name>jeesite-project</name>
     <url>https://www.wantdo.com</url>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>jeesite-parent</module>
+        <module>jeesite-core</module>
+        <module>jeesite-web</module>
+    </modules>
 
     <developers>
         <developer>
